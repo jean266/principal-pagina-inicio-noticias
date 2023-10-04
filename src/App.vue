@@ -21,7 +21,6 @@ export default {
     <header class="flex justify-between items-center">
       <div  class="w-12 md:w-16">
         <a href="./">
-          <img src="public/assets/logo.svg" alt="logo">
         </a>
       </div>
 
