@@ -36,7 +36,7 @@ Los usuarios deberían poder:
 ### Enlaces
 
 - URL de la solución: [GitHub](https://github.com/jean266/principal-pagina-inicio-noticias)
-- URL del sitio en vivo: [Vercel](https://your-live-site-url.com)
+- URL del sitio en vivo: [Vercel](https://principal-pagina-inicio-noticias-4m20afeab-jean266.vercel.app/)
 
 ## Mi proceso
 
