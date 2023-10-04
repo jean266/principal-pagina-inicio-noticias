@@ -21,19 +21,19 @@ export default {
     <header class="flex justify-between items-center">
       <div  class="w-12 md:w-16">
         <a href="./">
-          <img src="src/assets/logo.svg" alt="logo">
+          <img src="assets/logo.svg" alt="logo">
         </a>
       </div>
 
       <div>
         <div @click="handleClickShow" class="menu md:hidden block cursor-pointer">
-          <img src="src/assets/icon-menu.svg" alt="icono menu">
+          <img src="assets/icon-menu.svg" alt="icono menu">
         </div>
  
         <div class="bg-white h-screen fixed hidden top-0 right-0 w-8/12 shadow-menu md:shadow-none md:hidden" id="menu">
 
           <div @click="handleClickHidden" class="flex justify-end py-8 px-6 cursor-pointer">
-            <img src="src/assets/icon-menu-close.svg" alt="icono cerrar">
+            <img src="assets/icon-menu-close.svg" alt="icono cerrar">
           </div>
           
           <nav class="flex flex-col items-start mt-32 h-full text-center px-7 gap-6 text-normal">
@@ -61,8 +61,8 @@ export default {
 
         <div class="mt-8">
           <picture>
-            <source media="(max-width: 645px)" srcset="src/assets/image-web-3-mobile.jpg">
-            <img src="src/assets/image-web-3-desktop.jpg" alt="imagen main">
+            <source media="(max-width: 645px)" srcset="assets/image-web-3-mobile.jpg">
+            <img src="assets/image-web-3-desktop.jpg" alt="imagen main">
           </picture>
         </div>
 
@@ -114,7 +114,7 @@ export default {
 
         <seciton class="flex gap-5 items-center mb-5 md:mb-0 md:basis-1/3 xl:flex-row sm:flex-col">
           <div class="basis-2/5 h-full w-full">
-            <img class="h-full" src="src/assets/image-retro-pcs.jpg" alt="imagen retro PCs">
+            <img class="h-full" src="assets/image-retro-pcs.jpg" alt="imagen retro PCs">
           </div>
 
           <div class="basis-3/5">
@@ -128,7 +128,7 @@ export default {
 
         <seciton class="flex gap-5 items-center mb-5 md:mb-0 md:basis-1/3 xl:flex-row sm:flex-col">
           <div class="basis-2/5 h-full w-full">
-            <img class="h-full" src="src/assets/image-top-laptops.jpg" alt="imagen top laptops">
+            <img class="h-full" src="assets/image-top-laptops.jpg" alt="imagen top laptops">
           </div>
 
           <div class="basis-3/5">
@@ -142,7 +142,7 @@ export default {
 
         <seciton class="flex gap-5 items-center md:basis-1/3 xl:flex-row sm:flex-col">
           <div class="basis-2/5 h-full w-full">
-            <img class="h-full" src="src/assets/image-gaming-growth.jpg" alt="imagen gaming">
+            <img class="h-full" src="assets/image-gaming-growth.jpg" alt="imagen gaming">
           </div>
 
           <div class="basis-3/5">
